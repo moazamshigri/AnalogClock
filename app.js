@@ -7,9 +7,9 @@ setInterval(() => {
     minuteRotation = 6*minuteTime;
     secondsRotation = 6*secondsTime;
 
-    hour.style.transform = `rotate(${hourRotation}deg)`;
-    minute.style.transform = `rotate(${minuteRotation}deg)`;
-    second.style.transform = `rotate(${secondsRotation}deg)`;
+    hour.style.transform   = `rotate(${hourRotation}deg)`    ;
+    minute.style.transform = `rotate(${minuteRotation}deg)`  ;
+    second.style.transform = `rotate(${secondsRotation}deg)` ;
     
 },1
-)
+);
