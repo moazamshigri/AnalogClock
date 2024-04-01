@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analog clock- Using Js</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="styleSheet" href="style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -14,9 +14,12 @@
             <div class="container mt-5 ">
  
                 <div class="custom-control custom-switch">
-                  <input type="checkbox" class="custom-control-input" id="toggleSwitch">
-                  <label class="custom-control-label" for="toggleSwitch">Dark Mode</label>
-                </div>
+                  
+                        <input type="checkbox" class="custom-control-input" id="toggleSwitch">
+                        <label class="custom-control-label modeLabel hover" for="toggleSwitch"></label>
+                     
+                    </div>
+                  
               </div>
         </nav>
     </header>
