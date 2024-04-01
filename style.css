@@ -3,7 +3,7 @@
     margin: 0;
 
 }
-body{
+.body{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -54,4 +54,11 @@ body{
     top: 17%;
     opacity: 0.8;
 
+}
+.custom-control {
+    float: right;
+    z-index: 1;
+    display: flex;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
 }

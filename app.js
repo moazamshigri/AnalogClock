@@ -13,3 +13,6 @@ setInterval(() => {
     
 },1
 );
+
+let mode = document.querySelector(".custom-control-input");
+
