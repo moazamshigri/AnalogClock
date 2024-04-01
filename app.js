@@ -29,6 +29,7 @@ mode.addEventListener("click",() => {
     }
     else{
         modeLabel.innerHTML = "Dark Mode";
+        modeLabel.style.color = "white";
         styleSheet.setAttribute('href', 'style2.css');
         
     }
