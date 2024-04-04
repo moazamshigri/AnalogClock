@@ -33,5 +33,5 @@ mode.addEventListener("click",() => {
         
     }
 
-});
+
 
